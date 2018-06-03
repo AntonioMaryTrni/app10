@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+/*Principal*/
+body {
+	font-size: 16px;
+	background-color: #F66;
+     }
+
+ #principal div {
+	  width: 80%;
+	  text-align: left;
+	  margin: 20px auto;
+ }
+ #logo {
+	 width: 60px;
+	 height:auto;
+	 vertical-align: middle;
+ }
+ #principal h1{
+	 display: inline-block;
+	 font-size: 2em;
+	 vertical-align: middle;
+ }
+ #principal nav {
+	 width: 80%;
+	 margin: 10px auto;
+	 text-align: left;
+ }
+ #principal nav ul {
+	 list-style: none;
+ }
+ #principal nav ul li {
+	 display: inline-block;
+	 margin-right: 40px;
+	 font-size: 1.8em;
+ }
+ #img {
+	 text-align: center;
+ }
+ /*Instalaciones*/
+ #instalaciones h2 {
+	 text-align: center;
+	 
+ }
+ #collage {
+	 widht: 85%;
+	 margin: 10px auto;
+	 text-align: center;
+ }
+ .galeria {
+	 width: 31%;
+	 display: inline-block;
+	 margin: 8px;
+	 border: 1px solid red;
+ }
+ .galeria figure {
+	 width: 100%;
+	 margin: 0;
+	 background-color: #000;
+	 overflow: hidden;
+ }
+ /*mientras mas se hacerque al 0 es mas opaco*/
+ .galeria figure img {
+	 width: 100%;
+	 height: auto;
+	 opacity: 0.35;
+	 transform: scale(1.5);
+	 transform: all 0.5s linear;
+ }
+ .galeria figure img:hover {
+	 transform: scale(1);
+	 opacity: 1;
+ }
+ .galeria figcaption {
+	 text-transform: uppercase;
+	 color: #FFF;
+ }
+ #clases h2 {
+	 text-align: center;
+ }
+ #lista {
+	 width: 80%;
+	 margin: 10px auto;
+ }
+ #lista img {
+	 width: 40%;
+	 height: auto;
+	 margin: 8px 15px;
+	 vertical-align: middle;
+ }
+ #lista ul {
+	 display: inline-block;
+	 list-style: none;
+	 margin-left: 10px;
+	 font-size: 1.3em;
+	 vertical-align: middle;
+ }
+ #horario {
+	 width: 90%;
+	 margin: 10px auto;
+	 text-align: center;
+ }
+ #horario h3 {
+	 text-align: center;
+ }
+ #entrenadores {
+	 background-image: url(../imagenes/gym18.jpg);
+	 background-size: cover;
+	 background-attachment: fixed;
+	 color: #FFF;
+ }
+ #entrenadores h2{
+	 text-align: center;
+ }
+ #conocemos {
+	 width: 85%;
+	 margin: 25px auto;
+	 text-align: center;
+ }
+ .trabajador {
+	 width: 23%;
+	 margin: 0;
+	 display: inline-block;
+	 text-align: center;
+ }
+ .trabajador img {
+	 width: 80%;
+	 height: auto;
+	 border-radius: 50%;
+ }
+ .trabajador p {
+	 font-size:1.3em;
+	 margin-top: 15px;
+ }
+ #unete h2 {
+	 text-align: center;
+ }
+ #beneficios {
+	 width: 80%;
+	 margin: 0 auto;
+ }
+ #beneficios>div {
+	 width: 49%;
+	 display: inline-block;
+	 vertical-align: middle;
+ }
+ #beneficios ul {
+	 list-style: none;
+ }
+ #beneficios ul li {
+	 padding-left: 15px;
+ }
+ #beneficios ul li:before {
+	 content: "-";
+	 padding-right: 8px;
+	 color: #0FC;
+ }
+ #beneficios img {
+	 width: 30%;
+	 height: auto;
+	 display: block;
+	 margin: 12px auto;
+ }
+ footer div: {
+	 display: inline-block;
+	 vertical-align: middle;
+ }
+ footer div:first-child {
+	 width: 40%;
+	 text-align: center;
+ }
+ footer div:last-child {
+	 width: 58%;
+ }
+ footer p {
+	 margin-left: 15px;
+	 font-weight: bold;
+ }
+ footer {
+	 background-color: #633;
+ }
+ footer img: {
+	 width: 15%;
+	 height: auto;
+ }
